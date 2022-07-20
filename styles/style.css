@@ -3,17 +3,20 @@
   --second-color: #e3f6f5;
   --third-color: #ffffff;
   --fourth-color: #272343;
-  font-family: "Varela Round", sans-serif;
+  --font-main: "Varela Round", sans-serif;
 }
 h1 {
+  color: var(--third-color);
+  font-family: var(--font-main);
   border-bottom: 2px solid var(--third-color);
   font-size: 30px;
+  padding-bottom: 30px;
+  font-weight: 800;
 }
 .main-information {
-  color: var(--third-color);
   text-align: center;
-  background-image: url("/images/background.gif");
-  padding: 80px 20px;
+  background-image: linear-gradient(180deg, #272343, #7cbad5, #e3f6f5, #ffffff);
+  padding: 80px 0px;
 }
 .btn-branding {
   background: var(--first-color);
@@ -22,8 +25,18 @@ h1 {
   font-size: 20px;
   line-height: 27px;
   padding: 20px 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.505);
+  transition: all 200ms ease-in-out;
 }
-.main-button {
-  padding-left: 40px;
+.first-icon {
+  padding-left: 20px;
   padding-right: 0px;
+}
+.btn-branding:hover {
+  background-color: transparent;
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+}
+.btn-branding:hover .first-icon {
+  color: var(--first-color);
 }
