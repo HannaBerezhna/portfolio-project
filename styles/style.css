@@ -1,7 +1,29 @@
-body {
-  background-color: rgba(86, 122, 105, 0.108);
-}
-h1,
-p {
+:root {
+  --first-color: #7cbad5;
+  --second-color: #e3f6f5;
+  --third-color: #ffffff;
+  --fourth-color: #272343;
   font-family: "Varela Round", sans-serif;
+}
+h1 {
+  border-bottom: 2px solid var(--third-color);
+  font-size: 30px;
+}
+.main-information {
+  color: var(--third-color);
+  text-align: center;
+  background-image: url("/images/background.gif");
+  padding: 80px 20px;
+}
+.btn-branding {
+  background: var(--first-color);
+  border-radius: 4px;
+  color: var(--third-color);
+  font-size: 20px;
+  line-height: 27px;
+  padding: 20px 10px;
+}
+.main-button {
+  padding-left: 40px;
+  padding-right: 0px;
 }
