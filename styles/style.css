@@ -121,6 +121,23 @@ h2 {
 .img-thumb:hover .portfolio-button {
   display: inline-block;
 }
+.contact-information p {
+  color: var(--fourth-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.img-contact {
+  width: 200px;
+}
+.contact-col:hover {
+  background-color: var(--second-color);
+  border-radius: 4px;
+}
+.contact-information a {
+  text-decoration: none;
+  color: var(--fourth-color);
+  opacity: 0.9;
+}
 @media (max-width: 1000px) {
   .about-informattion p {
     padding: 0px;
