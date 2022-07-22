@@ -8,7 +8,6 @@
 h1 {
   color: var(--third-color);
   font-family: var(--font-main);
-  border-bottom: 2px solid var(--third-color);
   font-size: 30px;
   padding-bottom: 30px;
   font-weight: 800;
@@ -18,6 +17,36 @@ h2 {
   color: var(--fourth-color);
   font-size: 24px;
   font-weight: 600;
+}
+.background,
+.nav-content {
+  background-color: var(--fourth-color);
+}
+.border-button {
+  border-bottom: 1px solid var(--third-color);
+}
+.logo {
+  font-size: 35px;
+}
+.margin-left {
+  margin-left: 66%;
+}
+.current-position {
+  position: relative;
+}
+
+.current::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  transform: translateY(530%);
+
+  width: 100%;
+  border-radius: 2px;
+
+  background-color: var(--fourth-color);
+  border: solid 2px var(--third-color);
 }
 .hero {
   text-align: center;
