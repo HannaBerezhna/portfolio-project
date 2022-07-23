@@ -220,10 +220,16 @@ h2 {
 }
 
 @media (max-width: 995px) {
+  .hero {
+    padding: 10px 0;
+  }
   .about-informattion p {
     padding: 0px;
   }
   .current::after {
     visibility: hidden;
+  }
+  .social-links {
+    margin: 0 30px;
   }
 }
