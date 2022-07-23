@@ -37,7 +37,7 @@ h2 {
 
 .current::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0;
   left: 0;
   transform: translateY(530%);
@@ -77,6 +77,7 @@ h2 {
 }
 .main-information {
   text-align: center;
+  background-color: var(--third-color);
 }
 .btn-learn-more {
   background: transparent;
@@ -100,7 +101,7 @@ h2 {
 .style-colums {
   background-color: var(--second-color);
   border-radius: 4px;
-  padding-top: 20px;
+  padding: 20px 20px 0 20px;
 }
 .about-informattion p {
   color: var(--fourth-color);
@@ -150,6 +151,9 @@ h2 {
 .img-thumb:hover .portfolio-button {
   display: inline-block;
 }
+.contact-sentence {
+  font-size: 35px;
+}
 .contact-information p {
   color: var(--fourth-color);
   font-size: 20px;
@@ -167,8 +171,59 @@ h2 {
   color: var(--fourth-color);
   opacity: 0.9;
 }
-@media (max-width: 1000px) {
+.contact-information a:hover {
+  text-decoration: underline;
+}
+.social-links a {
+  margin: 0 80px;
+  padding-top: 10px;
+  color: var(--third-color);
+  background: var(--fourth-color);
+  font-size: 50px;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  color: var(--first-color);
+}
+.coder {
+  color: var(--third-color);
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.coder a {
+  text-decoration: none;
+  color: var(--second-color);
+}
+.coder a:hover {
+  text-decoration: underline;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid var(--third-color);
+  transition: all 100ms ease-in-out;
+}
+.triangle:hover {
+  border-bottom: 40px solid var(--first-color);
+}
+.back-to-top {
+  display: inline-block;
+  margin-left: -8px;
+  margin-top: 15px;
+  outline: 0 !important;
+}
+.back-to-top i {
+  color: var(--fourth-color);
+}
+
+@media (max-width: 995px) {
   .about-informattion p {
     padding: 0px;
+  }
+  .current::after {
+    visibility: hidden;
   }
 }
