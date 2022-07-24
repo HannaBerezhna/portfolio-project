@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hanna Berezhna is an UKrainian front-end developer based in Scotland."
+    />
     <title>Front-end developer - Hanna Berezhna</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -29,12 +33,20 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="background">
+    <header class="background" role="banner">
       <div class="container border-button">
         <nav class="navbar navbar-expand-lg navbar-dark nav-content">
           <div class="container-fluid">
-            <a class="navbar-brand logo" href="/">
-              <i class="fa-solid fa-dice-d20"></i> HB
+            <a
+              class="navbar-brand logo"
+              href="/"
+              title="Hanna Berezhna website"
+            >
+              <i
+                class="fa-solid fa-dice-d20 fa-fade"
+                style="--fa-animation-duration: 5s"
+              ></i>
+              HB
             </a>
             <button
               class="navbar-toggler"
@@ -54,17 +66,33 @@
                     class="nav-link active current"
                     aria-current="page"
                     href="/"
+                    title="Homepage Hanna Berezhna"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/about.html">About</a>
+                  <a
+                    class="nav-link"
+                    href="/about.html"
+                    title="About Hanna Berezhna"
+                    >About</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                  <a
+                    class="nav-link"
+                    href="/portfolio.html"
+                    title="Portfolio Hanna Berezhna"
+                    >Portfolio</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact.html">Contact</a>
+                  <a
+                    class="nav-link"
+                    href="/contact.html"
+                    title="Contact Hanna Berezhna"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
@@ -79,53 +107,117 @@
           <br />
           🇺🇦 Front-end developer based in Scotland, UK
         </h1>
-        <a href="#" class="btn btn-branding">
+        <a
+          href="/contact.html"
+          class="btn btn-branding box-shadow"
+          role="button"
+          title="Contact Hanna Berezhna"
+        >
           Contact me
           <i class="fa-solid fa-circle-chevron-right first-icon"></i>
         </a>
       </div>
     </section>
-    <section class="main-information mb-5">
+    <section class="main-information mb-3">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-sm-4">
-            <div class="style-colums">
+            <div class="style-colums box-shadow">
               <img
                 src="/images/3d-modeling-page.png"
-                alt="first-project"
+                alt="First project"
                 class="img-fluid d-none d-lg-block rounded img-center"
+                title="3D Modeling page"
               />
               <h2>3D Modeling</h2>
+              <p>
+                <i
+                  class="fa-brands fa-html5 fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+                <i
+                  class="fa-brands fa-css3-alt fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+              </p>
             </div>
-            <a href="#" class="btn btn-learn-more">
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-basics-5f97edd3-2c33-4dac-b21b-b4f6f5948979/projects/924338"
+              class="btn btn-learn-more box-shadow mt-3 mb-3"
+              target="_blank"
+              role="button"
+              title="View 3D Modeling page"
+            >
               Learn more
               <i class="fa-solid fa-circle-chevron-right first-icon"></i>
             </a>
           </div>
           <div class="col-lg-4 col-sm-4">
-            <div class="style-colums">
+            <div class="style-colums box-shadow">
               <img
-                src="/images/3d-modeling-page.png"
-                alt="first-project"
+                src="/images/weather-app.png"
+                alt="Second project"
                 class="img-fluid d-none d-lg-block rounded img-center"
+                title="Weather app"
               />
               <h2>Weather app</h2>
+              <p>
+                <i
+                  class="fa-brands fa-html5 fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+                <i
+                  class="fa-brands fa-css3-alt fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+                <i
+                  class="fa-brands fa-js-square fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+              </p>
             </div>
-            <a href="#" class="btn btn-learn-more">
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-plus-3a660bb5-56f1-472f-abf4-f9cf2ca834da/projects/978835"
+              class="btn btn-learn-more box-shadow mt-3 mb-3"
+              target="_blank"
+              role="button"
+              title="View Weather app"
+            >
               Learn more
               <i class="fa-solid fa-circle-chevron-right first-icon"></i>
             </a>
           </div>
           <div class="col-lg-4 col-sm-4">
-            <div class="style-colums">
+            <div class="style-colums box-shadow">
               <img
                 src="/images/3d-modeling-page.png"
-                alt="third-project"
+                alt="Third project"
                 class="img-fluid d-none d-lg-block rounded img-center"
+                title="Future project"
               />
               <h2>Future project</h2>
+              <p>
+                <i
+                  class="fa-brands fa-html5 fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+                <i
+                  class="fa-brands fa-css3-alt fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+                <i
+                  class="fa-brands fa-js-square fa-fade"
+                  style="--fa-animation-duration: 5s"
+                ></i>
+              </p>
             </div>
-            <a href="#" class="btn btn-learn-more">
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-basics-5f97edd3-2c33-4dac-b21b-b4f6f5948979/projects/924338"
+              class="btn btn-learn-more box-shadow mt-3 mb-3"
+              target="_blank"
+              role="button"
+              title="View Future project"
+            >
               Learn more
               <i class="fa-solid fa-circle-chevron-right first-icon"></i>
             </a>
@@ -135,24 +227,36 @@
     </section>
     <footer class="background">
       <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/HannaBerezhna" target="_blank">
+        <a
+          href="https://github.com/HannaBerezhna"
+          target="_blank"
+          title="Github Hanna Berezhna"
+        >
           <i class="fa-brands fa-github-square"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/hanna-berezhna-88277a234/"
           target="_blank"
+          title="Linkedin Hanna Berezhna"
         >
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://www.instagram.com/gannaberezhna/" target="_blank">
+        <a
+          href="https://www.instagram.com/gannaberezhna/"
+          target="_blank"
+          title="Instagram Hanna Berezhna"
+        >
           <i class="fa-brands fa-instagram-square"></i>
         </a>
       </div>
       <p class="text-center coder">
-        codded by <a href="/">Hanna Berezhna</a> and open-sourced on
+        coded by
+        <a href="/" title="Homepage Hanna Berezhna">Hanna Berezhna</a> and
+        open-sourced on
         <a
           href="https://github.com/HannaBerezhna/portfolio-project"
           target="_blank"
+          title="Github portfolio project"
           >Github</a
         >
       </p>
